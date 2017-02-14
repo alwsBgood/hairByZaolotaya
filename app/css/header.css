@@ -1,12 +1,11 @@
 body {
   position: relative;
-  font: 18px/24px "Roboto", sans-serif;
+  font: 18px/24px "Gilroy-Light", sans-serif;
   color: #7b7b7b;
   background-color: #fff; }
 
 body.unscroll {
   overflow: hidden; }
-
 
 .md-modal.md-show {
   opacity: 1; }
@@ -75,7 +74,7 @@ body.unscroll {
   height: 60px;
   background-color: #1988cc;
   color: #000;
-  font: 20px "Roboto", sans-serif;
+  font: 20px "Gilroy-Light", sans-serif;
   text-transform: uppercase; }
 
 .btn:hover {
