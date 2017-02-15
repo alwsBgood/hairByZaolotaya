@@ -47,7 +47,7 @@
     <style>:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-left:-15px;margin-right:-15px}.col-1,.col-sm-1,.col-md-1,.col-lg-1,.col-2,.col-sm-2,.col-md-2,.col-lg-2,.col-3,.col-sm-3,.col-md-3,.col-lg-3,.col-4,.col-sm-4,.col-md-4,.col-lg-4,.col-5,.col-sm-5,.col-md-5,.col-lg-5,.col-6,.col-sm-6,.col-md-6,.col-lg-6,.col-7,.col-sm-7,.col-md-7,.col-lg-7,.col-8,.col-sm-8,.col-md-8,.col-lg-8,.col-9,.col-sm-9,.col-md-9,.col-lg-9,.col-10,.col-sm-10,.col-md-10,.col-lg-10,.col-11,.col-sm-11,.col-md-11,.col-lg-11,.col-12,.col-sm-12,.col-md-12,.col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{float:left}.col-12{width:100%}.col-11{width:91.66666667%}.col-10{width:83.33333333%}.col-9{width:75%}.col-8{width:66.66666667%}.col-7{width:58.33333333%}.col-6{width:50%}.col-5{width:41.66666667%}.col-4{width:33.33333333%}.col-3{width:25%}.col-2{width:16.66666667%}.col-1{width:8.33333333%}.col-pull-12{right:100%}.col-pull-11{right:91.66666667%}.col-pull-10{right:83.33333333%}.col-pull-9{right:75%}.col-pull-8{right:66.66666667%}.col-pull-7{right:58.33333333%}.col-pull-6{right:50%}.col-pull-5{right:41.66666667%}.col-pull-4{right:33.33333333%}.col-pull-3{right:25%}.col-pull-2{right:16.66666667%}.col-pull-1{right:8.33333333%}.col-pull-0{right:auto}.col-push-12{left:100%}.col-push-11{left:91.66666667%}.col-push-10{left:83.33333333%}.col-push-9{left:75%}.col-push-8{left:66.66666667%}.col-push-7{left:58.33333333%}.col-push-6{left:50%}.col-push-5{left:41.66666667%}.col-push-4{left:33.33333333%}.col-push-3{left:25%}.col-push-2{left:16.66666667%}.col-push-1{left:8.33333333%}.col-push-0{left:auto}.col-offset-12{margin-left:100%}.col-offset-11{margin-left:91.66666667%}.col-offset-10{margin-left:83.33333333%}.col-offset-9{margin-left:75%}.col-offset-8{margin-left:66.66666667%}.col-offset-7{margin-left:58.33333333%}.col-offset-6{margin-left:50%}.col-offset-5{margin-left:41.66666667%}.col-offset-4{margin-left:33.33333333%}.col-offset-3{margin-left:25%}.col-offset-2{margin-left:16.66666667%}.col-offset-1{margin-left:8.33333333%}.col-offset-0{margin-left:0}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}</style>
 
     <!-- FONTS+HEADER -->
-    <style>@font-face{font-family:"Roboto";font-style:normal;font-weight:400;src:url(fonts/Roboto.woff2) format("woff2"),url(fonts/Roboto.woff) format("woff")}</style>
+    <style>@font-face{font-family:"Gilroy-Light";font-style:normal;font-weight:400;src:url(fonts/Gilroy-Light.woff2) format("woff2"),url(fonts/Gilroy-Light.woff) format("woff")}@font-face{font-family:"PlayfairDisplay-BoldItalic";font-style:normal;font-weight:400;src:url(fonts/PlayfairDisplay-BoldItalic.woff2) format("woff2"),url(fonts/PlayfairDisplay-BoldItalic.woff) format("woff")}@font-face{font-family:"PlayfairDisplay-Italic";font-style:normal;font-weight:400;src:url(fonts/PlayfairDisplay-Italic.woff2) format("woff2"),url(fonts/PlayfairDisplay-Italic.woff) format("woff")}@font-face{font-family:"PlayfairDisplay-Regular";font-style:normal;font-weight:400;src:url(fonts/PlayfairDisplay-Regular.woff2) format("woff2"),url(fonts/PlayfairDisplay-Regular.woff) format("woff")}</style>
 
     <!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
     <script>!function(a){"use strict";function b(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function c(b,c){return a.localStorage&&localStorage[b+"_content"]&&localStorage[b+"_file"]===c}function d(b,d){if(a.localStorage&&a.XMLHttpRequest)c(b,d)?f(localStorage[b+"_content"]):e(b,d);else{var h=g.createElement("link");h.href=d,h.id=b,h.rel="stylesheet",h.type="text/css",g.getElementsByTagName("head")[0].appendChild(h),g.cookie=b}}function e(a,b){var c=new XMLHttpRequest;c.open("GET",b,!0),c.onreadystatechange=function(){4===c.readyState&&200===c.status&&(f(c.responseText),localStorage[a+"_content"]=c.responseText,localStorage[a+"_file"]=b)},c.send()}function f(a){var b=g.createElement("style");b.setAttribute("type","text/css"),g.getElementsByTagName("head")[0].appendChild(b),b.styleSheet?b.styleSheet.cssText=a:b.innerHTML=a}var g=a.document;a.loadCSS=function(a,b,c){var d,e=g.createElement("link");if(b)d=b;else{var f;f=g.querySelectorAll?g.querySelectorAll("style,link[rel=stylesheet],script"):(g.body||g.getElementsByTagName("head")[0]).childNodes,d=f[f.length-1]}var h=g.styleSheets;e.rel="stylesheet",e.href=a,e.media="only x",d.parentNode.insertBefore(e,b?d:d.nextSibling);var i=function(a){for(var b=e.href,c=h.length;c--;)if(h[c].href===b)return a();setTimeout(function(){i(a)})};return e.onloadcssdefined=i,i(function(){e.media=c||"all"}),e},a.loadLocalStorageCSS=function(e,f){c(e,f)||g.cookie.indexOf(e)>-1?d(e,f):b(a,"load",function(){d(e,f)})}}(this);</script>
@@ -69,6 +69,98 @@
 <body data-img="img/land.jpg">
 <div class="bar-long"></div>
 <div id="scrollup"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286.054 286.054"><path d="M143.027 0C64.04 0 0 64.04 0 143.027c0 78.996 64.04 143.027 143.027 143.027s143.027-64.03 143.027-143.027C286.054 64.05 222.014 0 143.027 0zm0 259.236c-64.183 0-116.21-52.026-116.21-116.21s52.027-116.2 116.21-116.2 116.21 52.018 116.21 116.2-52.027 116.21-116.21 116.21zm51.677-125.148h-24.86V89.392c0-4.934-3.996-8.94-8.94-8.94H125.15c-4.934 0-8.94 4.006-8.94 8.94v44.696H91.342c-9.698 0-13.667 6.463-8.822 14.338l51.686 51.096c4.845 7.884 12.783 7.884 17.637 0l51.678-51.096c4.863-7.875.894-14.338-8.814-14.338z"/></svg></div>
+
+
+
+<section id="sec_01">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 top">
+                <img src="img/logo.png" alt="Логотип" class="logo">
+                <a href="" class="place text--title">22 Aпреля. г. Киев отель «Крещатик»</a>
+                <div class="call_box">
+                    <a href="tel:+ 380932482769" class="phone_number">+ 38 (093) 248 27 69</a>
+                    <a class="md-trigger" data-modal="modal_callback">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="headr_block text--title">
+                    <p class="place_header text--pink">Ukraine</p>
+                    <p class="main_header_text">Beauty</p>
+                    <p class="header_text">Fest</p>
+                    <p class="date_header text--pink">2017</p>
+                </div>
+                <p class="afterheader text--italic">Только этой весной  <span class="text--pink text-ibold">5 ТОП экспертов</span> индустрии красоты  <br> Украины и СНГ <span class="text--pink text-ibold">+ 10 ньюсмейкеров</span> — it girl Украины,  <br> на которых подписано <span class="text--pink text-ibold">+100 000 000 человек</span> <br>  — ждут тебя на самой масштабной beauty сессии страны</p>
+                <a href="#sec_07" class="btn scroll">Узнать больше</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sec_02">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="text--title color--dark">Топовые <br> эксперты СНГ <br> объединились <br> для того, чтобы ты: </h2>
+                <p class="text--ibold">Узнал первым о beauty тенденциях <br> и новинках сезона 2017</p>
+                <p class="text">Лично познакомился и пообщался с ТОП экспертами beauty индустрии Украины и СНГ, стать клиентом которых мечтают. На чьи мастер-классы покупают билеты за год вперед, и за которыми ежедневно следят в соц.сетях  <br> >500 000 пользователей</p>
+                <p class="text--ibold">Забронируйте Ваше место</p>
+                <p class="text">На первой в Украине 12-часовой beauty <br> сессии с самым большим количеством <br> ТОП beauty экспертов СНГ</p>
+                <a href="#sec_07" class="btn scroll">Принять Участие</a>
+            </div>
+            <div class="col-6">
+                <div class="names_block">
+                    <ul class="names_list text-ibold title">
+                        <li>Анастасия Золотая</li>
+                        <li>Юлиия Джулай,</li>
+                        <li>Рост Дикой,</li>
+                        <li>Диана Глостер</li>
+                        <li>Секретный спикер</li>
+                    </ul>
+                    <p class="names_cta text--ibold text--pink title">Не пропусти и Ты!</p>
+                    <p class="text names_text">Количество билетов ограничено</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sec_03">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="img/sec_03-img.png" alt="Модель" class="sec_img">
+            </div>
+            <div class="col-8">
+                <p class="preheader text--pink text--title">#ukrainebeautyfest</p>
+                <h2 class="text--title">— Твой must have 2017, <br> если: </h2>
+            </div>
+            <div class="col-6 col-offset-2">
+                <p class="text--ibold title--main">Ты — визажист или стилист <br> по волосам.Тебе крайне необходимо: </p>
+                <ul class="section_03_list items_list">
+                    <li>Быть в курсе и овладеть в совершенстве последними новинками <br> и тенденциями, сошедших с подиумов именитых кутюрье <br> и со страниц мировых бестселлеров</li>
+                    <li>Задать лично вопрос ТОП эксперту СНГ</li>
+                    <li>Узнать о повышении уровня деловой и клиентской репутации</li>
+                    <li>Грамотно и быстро раскрутить свой личный бренд через соцсети</li>
+                    <li>Повысить количество постоянных клиентов, узнать о сотрудничестве <br> с корпоративными клиентами</li>
+
+                </ul>
+                <p class="text--ibold title--main">Ты — блогер. Тебе важно:</p>
+                <ul class="section_03_list items_list">
+                    <li>Разработать свой личный онлайн-бренд</li>
+                    <li>Привлечь реальных клиентов на существующую <br> площадку без накруток и фейков</li>
+                    <li>Узнать о повышении уровня деловой и клиентской репутации</li>
+                    <li>Создать свой контент-план, который будет гарантировать <br> ежедневный прирост аудитории +1000 подписчиков</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 
 <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
 

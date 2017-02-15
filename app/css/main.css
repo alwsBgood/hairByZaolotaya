@@ -16,7 +16,7 @@ footer {
       color: #65666a;
       font-size: 14px; }
     footer .politics a:hover {
-      color: #1988cc; }
+      color: #f17899; }
     footer .politics a + a {
       margin-left: 10px; }
   footer .logo_rezart {
@@ -217,7 +217,7 @@ div[id*="modal_politics"] {
   .btn_close_modal a:hover {
     color: #000; }
     .btn_close_modal a:hover svg .a {
-      fill: #1988cc; }
+      fill: #f17899; }
 
 .t_small {
   font-size: 14px; }
@@ -281,12 +281,12 @@ div[id*="modal_politics"] {
   margin: 0; }
 
 .slick-next:hover {
-  border-top: 4px solid #1988cc;
-  border-right: 4px solid #1988cc; }
+  border-top: 4px solid #f17899;
+  border-right: 4px solid #f17899; }
 
 .slick-prev:hover {
-  border-top: 4px solid #1988cc;
-  border-left: 4px solid #1988cc; }
+  border-top: 4px solid #f17899;
+  border-left: 4px solid #f17899; }
 
 .slick-next:before, .slick-prev:before {
   display: none; }
@@ -325,7 +325,7 @@ div[id*="modal_politics"] {
   bottom: 0;
   width: 0;
   height: 3px;
-  background: #1988cc;
+  background: #f17899;
   -webkit-transition: all 0.4s;
   transition: all 0.4s; }
 
