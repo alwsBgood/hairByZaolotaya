@@ -102,12 +102,6 @@ $(function() {
 });
 
 
-
-
-
-
-
-
  // Smooth scroll to anchor
 
  $('.scroll').click(function(){
@@ -123,8 +117,6 @@ jQuery(function($){
  $("input[type='tel']").mask("+9 (999) 999-9999");
 });
 
-
-
 // Scroll BAR
 
 $(window).scroll(function() {
@@ -135,49 +127,11 @@ $(window).scroll(function() {
 
   });
 
+// Accordion coaches
 
-//YOUTUBE
-
-$(function() {
-  $(".youtube").each(function() {
-    $(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/sddefault.jpg)');
-
-    $(this).append($('<div/>', {'class': 'play'}));
-
-    $(document).delegate('#'+this.id, 'click', function() {
-      var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1";
-      if ($(this).data('params')) iframe_url+='&'+$(this).data('params');
-
-      var iframe = $('<iframe/>', {'frameborder': '0', 'src': iframe_url, 'width': $(this).width(), 'height': $(this).height() })
-
-      $(this).replaceWith(iframe);
-    });
-  });
-});
-
-// Waypoint
-
-// $('#sec_03').waypoint(
-//   function() {
-//     $( "#sec_03 .item" ).addClass( "animated" );
-//     $( "#sec_03 .item" ).addClass( "flipInX" );
-//   },
-//   {offset: "550px"}
-//   );
-
-// Parallax
-
-$(window).scroll(function() {
-
-  var st = $(this).scrollTop() /100;
-  var tt = $(this).scrollTop() /100;
-
-  $(".paralax_letter").css({
-    "transform" : "translate3d(0px, " + st  + "%, .0px)",
-    "-webkit-transform" : "translate3d(0px, " + st  + "%, .0px)",
-    "-ms-transform" : "translate3d(0px, " + st  + "%, .0px)"
-  });
-
+$('.coach_accordion_trigger').click(function() {
+  $(this).toggleClass('active');
+  $(this).closest('.coach_card').find('.more_info').slideToggle();
 });
 
 //  UP BUTTON
@@ -204,14 +158,18 @@ $( document ).ready(function() {
 
 // PREVENT SCROLLING
 
-$('*').click(function() {
-  var modal= $(".md-modal");
-  if( modal.hasClass('md-show')){
-    $("body").addClass('unscroll')
-  } else {
-    $("body").removeClass('unscroll');
-  }
+$('.md-trigger').click(function() {
+  $("body").addClass('unscroll');
 });
+
+$('.md-close').click(function() {
+  $("body").removeClass('unscroll');
+});
+
+$('.md-overlay').click(function() {
+  $("body").removeClass('unscroll');
+});
+
 
 
 // Perfect Pxel

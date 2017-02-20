@@ -1,11 +1,116 @@
 @import url(../libs/niftymodal/component.css);
 @import url(../libs/slick/slick.min.css);
-form {
-  width: 400px;
-  margin: 40px auto; }
-  form .field {
+#sec_02 {
+  padding: 190px 0 100px; }
+  #sec_02 .container {
+    position: relative; }
+  #sec_02 .sec_img {
+    position: absolute;
+    right: -9px;
+    top: -17px; }
+  #sec_02 h2 {
+    margin-bottom: 50px; }
+  #sec_02 .title--small {
+    margin-bottom: 5px;
+    line-height: 24px; }
+  #sec_02 .text {
+    line-height: 26px; }
+  #sec_02 .item + .item {
+    margin-top: 30px;
+    margin-bottom: 50px; }
+  #sec_02 .names_block {
+    float: right;
+    margin: 73px -5px 0 0;
+    letter-spacing: .05em; }
+    #sec_02 .names_block li + li {
+      margin-top: 15px; }
+    #sec_02 .names_block .names_cta {
+      margin-top: 33px; }
+
+#sec_03 {
+  padding: 85px 0 0px; }
+  #sec_03 .sec_img {
+    float: right;
+    margin-right: -100px; }
+  #sec_03 .preheader {
+    font-size: 72px;
+    line-height: 80px; }
+  #sec_03 h2 {
+    margin-bottom: 65px; }
+  #sec_03 .title--main {
+    margin-bottom: 30px; }
+  #sec_03 .items_list {
+    line-height: 24px; }
+    #sec_03 .items_list li + li {
+      margin-top: 17px; }
+  #sec_03 .item + .item {
+    margin-top: 50px; }
+
+#sec_04 {
+  padding: 70px 0; }
+  #sec_04 .title--main {
+    margin-bottom: 30px; }
+  #sec_04 .items_list {
+    line-height: 24px; }
+    #sec_04 .items_list li + li {
+      margin-top: 17px; }
+  #sec_04 .item + .item {
+    margin-top: 50px; }
+  #sec_04 .date_info_block {
+    margin-top: 65px; }
+    #sec_04 .date_info_block .btn {
+      margin-top: 20px; }
+    #sec_04 .date_info_block .title--main {
+      margin-bottom: 20px; }
+  #sec_04 .item_block {
+    float: right;
+    margin-top: 490px; }
+    #sec_04 .item_block .title--main {
+      margin-bottom: 15px; }
+  #sec_04 .with_img {
+    margin-top: -20px;
+    background-image: url(../img/sec_04-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat; }
+
+#sec_05 {
+  padding: 115px 0; }
+  #sec_05 .header--crossed:before {
+    background-image: url(../img/sec_05_headline.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    top: 10px; }
+  #sec_05 h2 {
+    margin-bottom: 20px; }
+  #sec_05 .date_info_block .title--main {
+    margin-bottom: 10px; }
+  #sec_05 .date_info_block .text {
+    line-height: 26px; }
+  #sec_05 .row + .row {
+    margin-top: 60px; }
+
+.coach_card {
+  margin-top: 15px; }
+  .coach_card .coach_card_img_wrapper {
+    margin-bottom: 27px; }
+  .coach_card .coach_card_name {
+    margin-bottom: 15px; }
+  .coach_card .more_info {
+    display: none; }
+  .coach_card .items_list li + li {
+    margin-top: 12px; }
+  .coach_card .coach_card_button {
     width: 100%;
-    margin: 5px 0; }
+    background: #fff;
+    margin-top: 10px;
+    width: 330px; }
+    .coach_card .coach_card_button:hover {
+      background-color: rgba(241, 120, 153, 0.4); }
+    .coach_card .coach_card_button.active img {
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
 
 footer {
   padding: 15px 0 15px;
