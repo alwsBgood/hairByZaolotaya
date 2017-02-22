@@ -141,7 +141,8 @@ opacity: 0;
 }
 
 .btn{
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     height: 50px;
     background-color: #ff0065;
 
@@ -164,6 +165,7 @@ opacity: 0;
     background-color: #373135;
 
     padding: 25px 0 190px;
+    .sec_img{display: none;}
     .top{
         color: #fff;
         margin-bottom: 425px;
@@ -224,5 +226,144 @@ opacity: 0;
     &:active{
         background-color: #898688;
         border: 3px solid #898688;
+    }
+}
+
+
+@media (max-width: 1200px){
+    #sec_01{
+        background-image: none;
+      .container{position: relative;}
+      .top{margin-bottom: 80px;}
+      .headr_block{
+        margin-bottom: 80px;
+        width: 500px;
+        display: block;
+        text-align: center;
+        .place_header{
+            font-size: 36px;
+            line-height: 30px;
+            margin-bottom: -15px;
+        }
+        .main_header_text,
+        .header_text{
+            font-size: 128px;
+            line-height: 110px;
+            color: #fff;
+        }
+        .header_text{margin-left: 80px;}
+        .header_text, .date_header{
+            display: inline-block;
+        }
+        .date_header{
+            font-size: 48px;
+            margin-left: 20px;
+        }
+      }
+      .sec_img{
+          display: block;
+          position: absolute;
+          bottom: -190px;
+          right: -200px;
+      }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  #sec_01{
+    padding-bottom: 140px;
+    .container{position: relative;}
+    .headr_block{
+      display: block;
+      text-align: left;
+      .header_text{margin-left: 0px;}
+      .place_header{margin-bottom: 0px;}
+      .main_header_text,
+      .header_text{
+          font-size:88px;
+          line-height: 90px;
+      }
+    }
+    .sec_img{
+        display: block;
+        position: absolute;
+        bottom: -140px;
+        right: -200px;
+    }
+    .top{
+        margin-bottom: 50px;
+        .place{margin-left: 10px; span{font-size: 18px}}
+        .phone_number{margin-right: 30px;}
+        .call_btn {width: 145px;}
+        .call_box{margin-top: 35px;}
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+
+
+@media (max-width: 767px) {
+    #sec_01{
+        overflow: hidden;
+        text-align: center;
+        .headr_block {margin: 0 auto 80px;}
+        .top{
+            .place{display: none;}
+            .phone_number{margin-right: 20px;}
+            .call_btn {width: 145px;}
+        }
+        .wrap{
+            background-color: rgba(55, 49, 53, .5);
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: -100px;
+            right: -100px;
+            bottom: -200px;
+            top: -100px;
+        }
+        .row{
+            position: relative;
+            z-index: 2;
+        }
+        .btn{
+            margin: 0 auto;
+        }
+        .afterheader {color: #fff;}
+    }
+}
+
+@media (max-width: 510px) {
+    #sec_01{
+        padding-bottom: 90px;
+        .top{
+            margin-bottom: 60px;
+            .call_box{float: none;}
+            .phone_number{
+                font-size: 14px;
+                float: left;
+            }
+        }
+        .headr_block{
+          margin-bottom: 40px;
+          width: auto;
+          display: block;
+          .place_header{
+              font-size: 36px;
+              line-height: 40px;
+          }
+          .main_header_text,
+          .header_text{
+              font-size: 78px;
+              line-height: 80px;
+              margin-left: 0;
+          }
+          .date_header{
+              font-size: 38px;
+          }
+        }
     }
 }

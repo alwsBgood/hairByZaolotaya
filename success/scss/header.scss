@@ -1,0 +1,190 @@
+@import "bourbon";
+@import "vars.scss";
+
+body {
+	position: relative;
+	font: 18px/24px $main_font;
+	color: $main_text_color;
+	background-color: #fff;
+}
+
+body.unscroll{
+	overflow: hidden;
+}
+
+h2{
+    color: #373035;
+    font-size: 48px;
+    line-height: 56px;
+    position: relative;
+}
+
+
+// Modals
+.md-modal.md-show{
+opacity: 1;
+}
+.md-modal{
+opacity: 0;
+}
+
+.hidden{
+    height: 0;
+    width: 0;
+}
+
+/* SCROLL BAR STYLES*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+ /* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,  0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background: $main_color;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: $main_color;
+}
+
+
+
+// Modificators
+
+.text--title {font-family: $title;}
+.text--italic{
+    letter-spacing: .05em;
+    font-family: $title_italic;
+}
+.text--ibold {
+    font-family: $title_bolditalic;
+    color: #373035;
+    letter-spacing: .05em;
+}
+
+.text--pink {color: #f17899;}
+.text--white {color: #fff;}
+
+.title--main{
+    font-size: 24px;
+    line-height: 30px;
+}
+.title--small {font-size: 18px;}
+
+.btn{
+    max-width: 200px;
+    width: 100%;
+    height: 50px;
+    background-color: #ff0065;
+
+  color: #fff;
+  font: 14px/24px $title_bolditalic;
+  text-align: center;
+    letter-spacing: 0.05em;
+    &:hover{
+        background-color: #00c8c8;
+    }
+    &:active{
+        background-color: #007b7b;
+    }
+}
+
+section{
+  padding-bottom: 77px;
+  position: relative;
+  min-height: 100vh;
+  background-image: url(img/bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #373135;
+  text-align: center;
+  padding-top: 200px;
+  .logo{
+    margin-right: -72px;
+  }
+  h1{
+    color: #ffffff;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 20px 0 30px;
+  }
+  .btn{
+    margin: 50px auto 200px;
+  }
+}
+
+footer{
+  padding: 15px 0 15px;
+  background-color: #202020;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  .politics{
+    margin-top: 17px;
+    a{
+      color: #65666a;
+      font-size: 14px;
+    }
+    a:hover{color: $main_color;}
+    a+a{margin-left: 10px;}
+  }
+  .logo_rezart{
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 80px;
+    // margin-right: 20px;
+    float: right;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  footer{
+    .politics a{
+      font-size: 13px;
+    }
+  }
+}
+
+@media screen and (max-height: 790px){
+  .md_large .md_content {max-height: 320px;}
+}
+
+@media (max-width: 767px) {
+  [class*='col']{width: 100%};
+  section{
+    padding-bottom: 182px;
+    overflow: hidden;
+    padding-top: 60px;
+    background-image: none;
+  }
+  footer{
+    text-align: center;
+    .politics{
+      a{
+         font-size: 14px;
+         display: block;
+         text-align: center;
+       }
+     a+a{margin-left: 0 }
+    }
+    .logo_rezart{
+      display: inline-block;
+      float: none;
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+  div[id*='modal_politics']{
+    h2{padding-top: 70px; font-size: 28px;}
+    .btn_close_modal{
+      top: 20px;
+    }
+  }
+}
+

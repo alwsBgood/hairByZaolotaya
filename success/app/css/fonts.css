@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Gilroy-Light.woff2") format("woff2"), url("fonts/Gilroy-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "PlayfairDisplay-BoldItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"), url("fonts/PlayfairDisplay-BoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: "PlayfairDisplay-Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/PlayfairDisplay-Italic.woff2") format("woff2"), url("fonts/PlayfairDisplay-Italic.woff") format("woff"); }
+
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/PlayfairDisplay-Regular.woff2") format("woff2"), url("fonts/PlayfairDisplay-Regular.woff") format("woff"); }

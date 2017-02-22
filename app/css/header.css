@@ -124,7 +124,8 @@ h2 {
   background: #f17899; }
 
 .btn {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 50px;
   background-color: #ff0065;
   color: #fff;
@@ -142,6 +143,8 @@ h2 {
   background-repeat: no-repeat;
   background-color: #373135;
   padding: 25px 0 190px; }
+  #sec_01 .sec_img {
+    display: none; }
   #sec_01 .top {
     color: #fff;
     margin-bottom: 425px; }
@@ -191,3 +194,125 @@ h2 {
   .call_btn:active {
     background-color: #898688;
     border: 3px solid #898688; }
+
+@media (max-width: 1200px) {
+  #sec_01 {
+    background-image: none; }
+    #sec_01 .container {
+      position: relative; }
+    #sec_01 .top {
+      margin-bottom: 80px; }
+    #sec_01 .headr_block {
+      margin-bottom: 80px;
+      width: 500px;
+      display: block;
+      text-align: center; }
+      #sec_01 .headr_block .place_header {
+        font-size: 36px;
+        line-height: 30px;
+        margin-bottom: -15px; }
+      #sec_01 .headr_block .main_header_text,
+      #sec_01 .headr_block .header_text {
+        font-size: 128px;
+        line-height: 110px;
+        color: #fff; }
+      #sec_01 .headr_block .header_text {
+        margin-left: 80px; }
+      #sec_01 .headr_block .header_text, #sec_01 .headr_block .date_header {
+        display: inline-block; }
+      #sec_01 .headr_block .date_header {
+        font-size: 48px;
+        margin-left: 20px; }
+    #sec_01 .sec_img {
+      display: block;
+      position: absolute;
+      bottom: -190px;
+      right: -200px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #sec_01 {
+    padding-bottom: 140px; }
+    #sec_01 .container {
+      position: relative; }
+    #sec_01 .headr_block {
+      display: block;
+      text-align: left; }
+      #sec_01 .headr_block .header_text {
+        margin-left: 0px; }
+      #sec_01 .headr_block .place_header {
+        margin-bottom: 0px; }
+      #sec_01 .headr_block .main_header_text,
+      #sec_01 .headr_block .header_text {
+        font-size: 88px;
+        line-height: 90px; }
+    #sec_01 .sec_img {
+      display: block;
+      position: absolute;
+      bottom: -140px;
+      right: -200px; }
+    #sec_01 .top {
+      margin-bottom: 50px; }
+      #sec_01 .top .place {
+        margin-left: 10px; }
+        #sec_01 .top .place span {
+          font-size: 18px; }
+      #sec_01 .top .phone_number {
+        margin-right: 30px; }
+      #sec_01 .top .call_btn {
+        width: 145px; }
+      #sec_01 .top .call_box {
+        margin-top: 35px; } }
+
+@media (max-width: 767px) {
+  #sec_01 {
+    overflow: hidden;
+    text-align: center; }
+    #sec_01 .headr_block {
+      margin: 0 auto 80px; }
+    #sec_01 .top .place {
+      display: none; }
+    #sec_01 .top .phone_number {
+      margin-right: 20px; }
+    #sec_01 .top .call_btn {
+      width: 145px; }
+    #sec_01 .wrap {
+      background-color: rgba(55, 49, 53, 0.5);
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: -100px;
+      right: -100px;
+      bottom: -200px;
+      top: -100px; }
+    #sec_01 .row {
+      position: relative;
+      z-index: 2; }
+    #sec_01 .btn {
+      margin: 0 auto; }
+    #sec_01 .afterheader {
+      color: #fff; } }
+
+@media (max-width: 510px) {
+  #sec_01 {
+    padding-bottom: 90px; }
+    #sec_01 .top {
+      margin-bottom: 60px; }
+      #sec_01 .top .call_box {
+        float: none; }
+      #sec_01 .top .phone_number {
+        font-size: 14px;
+        float: left; }
+    #sec_01 .headr_block {
+      margin-bottom: 40px;
+      width: auto;
+      display: block; }
+      #sec_01 .headr_block .place_header {
+        font-size: 36px;
+        line-height: 40px; }
+      #sec_01 .headr_block .main_header_text,
+      #sec_01 .headr_block .header_text {
+        font-size: 78px;
+        line-height: 80px;
+        margin-left: 0; }
+      #sec_01 .headr_block .date_header {
+        font-size: 38px; } }
