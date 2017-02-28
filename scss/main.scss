@@ -8,6 +8,7 @@
   .container{
     position: relative;
   }
+  .mobile{display: none}
   .sec_img{
     position: absolute;
     right: -9px;
@@ -103,6 +104,7 @@
     background-position: top center;
     background-repeat: no-repeat;;
   }
+  .mobile{display: none}
 }
 
 
@@ -140,6 +142,9 @@
   .items_list{
     li+li{margin-top: 12px;}
   }
+  .coach_card_text{
+    min-height: 100px;
+  }
   .coach_card_button{
     width: 100%;
     background: #fff;
@@ -148,11 +153,17 @@
     &:hover{
       background-color: rgba(241, 120, 153, 0.4);
     }
-    &.active{
-      img{
-        transform: rotate(180deg)
-      }
+  }
+}
+
+.coach_card.active{
+  .coach_card_button{
+    img{
+      transform: rotate(180deg)
     }
+  }
+  .coach_card_text{
+    min-height: auto;
   }
 }
 
@@ -301,6 +312,7 @@
 
 #sec_09{
   padding: 100px 0 0;
+  overflow: hidden;
   .sec_img{
     margin-top: -50px;
     margin-left: -15px;
@@ -391,11 +403,12 @@
   }
 
   form{
+    box-shadow: 0 17px 32px rgba(0, 0, 0, 0.07);
     margin-top: 40px;
     padding: 50px 65px 70px;
     background: #fff;
     .btn{
-      width: 250px;
+      max-width: 250px;
       margin-top: 30px;
     }
   }

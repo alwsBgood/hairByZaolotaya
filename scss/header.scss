@@ -165,6 +165,7 @@ opacity: 0;
     background-color: #373135;
 
     padding: 25px 0 190px;
+    overflow: hidden;
     .sec_img{display: none;}
     .top{
         color: #fff;
@@ -288,7 +289,8 @@ opacity: 0;
         display: block;
         position: absolute;
         bottom: -140px;
-        right: -200px;
+        right: -100px;
+        width: 900px;
     }
     .top{
         margin-bottom: 50px;
@@ -339,12 +341,20 @@ opacity: 0;
 @media (max-width: 510px) {
     #sec_01{
         padding-bottom: 90px;
+        text-align: left;
+        .wrap{
+            background-color: rgba(55, 49, 53, .73);
+        }
         .top{
             margin-bottom: 60px;
-            .call_box{float: none;}
             .phone_number{
                 font-size: 14px;
-                float: left;
+            }
+            .call_btn{
+                float: none;
+            }
+            .call_box{
+                margin-top: 0;
             }
         }
         .headr_block{

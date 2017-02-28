@@ -112,7 +112,7 @@ $(window).scroll(function() {
 // Accordion coaches
 
 $('.coach_accordion_trigger').click(function() {
-  $(this).toggleClass('active');
+  $(this).closest('.coach_card').toggleClass('active')
   $(this).closest('.coach_card').find('.more_info').slideToggle();
 });
 

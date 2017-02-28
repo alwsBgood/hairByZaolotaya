@@ -3,6 +3,8 @@
   padding: 190px 0 100px; }
   #sec_02 .container {
     position: relative; }
+  #sec_02 .mobile {
+    display: none; }
   #sec_02 .sec_img {
     position: absolute;
     right: -9px;
@@ -71,6 +73,8 @@
     background-image: url(../img/sec_04-bg.png);
     background-position: top center;
     background-repeat: no-repeat; }
+  #sec_04 .mobile {
+    display: none; }
 
 #sec_05 {
   padding: 115px 0 55px; }
@@ -99,6 +103,8 @@
     display: none; }
   .coach_card .items_list li + li {
     margin-top: 12px; }
+  .coach_card .coach_card_text {
+    min-height: 100px; }
   .coach_card .coach_card_button {
     width: 100%;
     background: #fff;
@@ -106,10 +112,14 @@
     max-width: 330px; }
     .coach_card .coach_card_button:hover {
       background-color: rgba(241, 120, 153, 0.4); }
-    .coach_card .coach_card_button.active img {
-      -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-      transform: rotate(180deg); }
+
+.coach_card.active .coach_card_button img {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.coach_card.active .coach_card_text {
+  min-height: auto; }
 
 #sec_06 {
   padding: 0 0 195px;
@@ -233,7 +243,8 @@
     display: block; }
 
 #sec_09 {
-  padding: 100px 0 0; }
+  padding: 100px 0 0;
+  overflow: hidden; }
   #sec_09 .sec_img {
     margin-top: -50px;
     margin-left: -15px;
@@ -304,11 +315,13 @@
   #sec_11 .form_header {
     margin: 10px 0 5px; }
   #sec_11 form {
+    -webkit-box-shadow: 0 17px 32px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 17px 32px rgba(0, 0, 0, 0.07);
     margin-top: 40px;
     padding: 50px 65px 70px;
     background: #fff; }
     #sec_11 form .btn {
-      width: 250px;
+      max-width: 250px;
       margin-top: 30px; }
 
 #footer {
@@ -366,14 +379,16 @@ footer {
   margin-bottom: 40px; }
 
 div[id*="modal_callback"] {
-  max-width: 500px; }
+  max-width: 500px;
+  min-width: 500px; }
   div[id*="modal_callback"] h2 {
-    font-size: 48px;
+    font-size: 42px;
     line-height: 54px;
     margin: 30px 30px 0px; }
   div[id*="modal_callback"] .h2_desc {
     margin-bottom: 25px; }
   div[id*="modal_callback"] .md-content {
+    min-width: 500px;
     padding: 20px;
     background: #fff;
     background-size: cover;
@@ -646,7 +661,8 @@ input:-ms-input-placeholder {
     #sec_02 .sec_img {
       display: none; }
     #sec_02 .names_block {
-      position: relative; }
+      position: relative;
+      margin-top: 280px; }
       #sec_02 .names_block:before {
         position: absolute;
         content: '';
@@ -722,13 +738,10 @@ input:-ms-input-placeholder {
     background: #fff; }
     #sec_11 [class*='col'] {
       width: 50%; }
-    #sec_11 form {
-      -webkit-box-shadow: 0 17px 32px rgba(0, 0, 0, 0.07);
-      box-shadow: 0 17px 32px rgba(0, 0, 0, 0.07); }
   footer .politics a {
     font-size: 13px; } }
 
-@media screen and (max-height: 790px) {
+@media screen and (max-height: 700px) {
   .md_large .md_content {
     max-height: 320px; } }
 
@@ -753,7 +766,8 @@ input:-ms-input-placeholder {
     #sec_02 .names_block {
       position: relative;
       float: none;
-      margin-top: 180px;
+      margin-top: 100px;
+      margin-bottom: 60px;
       margin-left: 60px; }
       #sec_02 .names_block:before {
         position: absolute;
@@ -763,6 +777,10 @@ input:-ms-input-placeholder {
         left: -260px;
         top: -85px;
         background: url(../img/sec_02-block_bg.png) top right no-repeat; }
+    #sec_02 .desctop {
+      display: none; }
+    #sec_02 .mobile {
+      display: block; }
   #sec_03 {
     padding-top: 20px; }
     #sec_03 .preheader {
@@ -780,7 +798,8 @@ input:-ms-input-placeholder {
   #sec_04 .item_block {
     position: relative;
     margin-left: 60px;
-    margin-top: 160px;
+    margin-top: 60px;
+    margin-bottom: 80px;
     width: 240px;
     float: none; }
     #sec_04 .item_block:before {
@@ -791,6 +810,10 @@ input:-ms-input-placeholder {
       left: -260px;
       top: -55px;
       background: url(../img/sec_04-block_bg.png) top right no-repeat; }
+  #sec_04 .desctop {
+    display: none; }
+  #sec_04 .mobile {
+    display: block; }
   #sec_05 {
     padding-top: 30px; }
     #sec_05 .coach_card {
@@ -900,27 +923,25 @@ input:-ms-input-placeholder {
       float: none;
       margin-top: 20px;
       margin-left: 0; }
-  div[id*="modal_callback"] {
-    min-width: 320px; }
-    div[id*="modal_callback"] .md-content {
-      padding: 35px;
-      background: #fff; }
-    div[id*="modal_callback"] h2 {
-      margin: 30px 0;
-      font-size: 30px;
-      line-height: 34px; }
-    div[id*="modal_callback"] form {
-      display: block;
-      max-width: 390px;
-      margin: 0 auto;
-      width: 100%; }
-    div[id*="modal_callback"] .field {
-      max-width: 360px;
-      width: 100%; }
-    div[id*="modal_callback"] .field + .field {
-      margin-top: 15px; }
-    div[id*="modal_callback"] .btn {
-      margin: 25px auto 0; }
+  div[id*="modal_callback"] .md-content {
+    padding: 35px;
+    background: #fff; }
+  div[id*="modal_callback"] h2 {
+    margin: 30px 0;
+    font-size: 30px;
+    line-height: 34px; }
+  div[id*="modal_callback"] form {
+    display: block;
+    max-width: 390px;
+    margin: 0 auto;
+    width: 100%; }
+  div[id*="modal_callback"] .field {
+    max-width: 360px;
+    width: 100%; }
+  div[id*="modal_callback"] .field + .field {
+    margin-top: 15px; }
+  div[id*="modal_callback"] .btn {
+    margin: 25px auto 0; }
   div[id*='modal_politics'] h2 {
     padding-top: 70px;
     font-size: 28px; }
@@ -928,12 +949,16 @@ input:-ms-input-placeholder {
     top: 20px; } }
 
 @media (max-width: 510px) {
+  div[id*="modal_callback"] {
+    min-width: 320px; }
+    div[id*="modal_callback"] .md-content {
+      min-width: 320px; }
   .schedule_item .time {
     font-size: 14px; }
   #sec_02 .names_block {
     margin-left: 20px; }
   #sec_03 .preheader {
-    font-size: 24px; }
+    font-size: 32px; }
   #sec_04 .item_block {
     margin-left: 20px; }
   #footer .logo_btn {

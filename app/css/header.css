@@ -142,7 +142,8 @@ h2 {
   background-position: top center;
   background-repeat: no-repeat;
   background-color: #373135;
-  padding: 25px 0 190px; }
+  padding: 25px 0 190px;
+  overflow: hidden; }
   #sec_01 .sec_img {
     display: none; }
   #sec_01 .top {
@@ -249,7 +250,8 @@ h2 {
       display: block;
       position: absolute;
       bottom: -140px;
-      right: -200px; }
+      right: -100px;
+      width: 900px; }
     #sec_01 .top {
       margin-bottom: 50px; }
       #sec_01 .top .place {
@@ -294,14 +296,18 @@ h2 {
 
 @media (max-width: 510px) {
   #sec_01 {
-    padding-bottom: 90px; }
+    padding-bottom: 90px;
+    text-align: left; }
+    #sec_01 .wrap {
+      background-color: rgba(55, 49, 53, 0.73); }
     #sec_01 .top {
       margin-bottom: 60px; }
-      #sec_01 .top .call_box {
-        float: none; }
       #sec_01 .top .phone_number {
-        font-size: 14px;
-        float: left; }
+        font-size: 14px; }
+      #sec_01 .top .call_btn {
+        float: none; }
+      #sec_01 .top .call_box {
+        margin-top: 0; }
     #sec_01 .headr_block {
       margin-bottom: 40px;
       width: auto;
