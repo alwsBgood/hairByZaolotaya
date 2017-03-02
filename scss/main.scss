@@ -345,7 +345,7 @@
 #sec_10{
   padding: 150px 0 100px;
   background-color: $main_color;
-  .partner_logo+.partner_logo{
+  .wrap+.wrap{
     margin-top: 35px;
   }
   h2{
@@ -375,10 +375,16 @@
 }
 
 #sec_11{
-  background-image: url(../img/sec_11-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
   padding: 130px 0 150px;
+  .container{
+    position: relative;
+  }
+  .sec_img{
+    position: absolute;
+    bottom: -150px;
+    left: 200px;
+    z-index: 2;
+  }
   h2{
     z-index: 10;
     margin-bottom: 40px;
@@ -407,6 +413,17 @@
     margin-top: 40px;
     padding: 50px 65px 70px;
     background: #fff;
+    position: relative;
+    &:before{
+      content: "";
+      position: absolute;
+      z-index: -1;
+      width: 485px;
+      height: 410px;
+      top: 100px;
+      left: -300px;
+      background: url(../img/sec_11-dots.png)
+    }
     .btn{
       max-width: 250px;
       margin-top: 30px;

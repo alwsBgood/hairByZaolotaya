@@ -37,18 +37,13 @@
       margin-top: 20px;
     }
   }
-  #sec_10{
-    .partner_title {
-      font-size: 16px;
-    }
-    .partner_logo{
-      width: 100%;
-    }
-  }
+
   #sec_11{
-    background-size: 1400px;
     padding-bottom: 30px;
-    background-position: center bottom
+    .sec_img{
+      width: 420px;
+      bottom: -31px;
+    }
   }
 }
 
@@ -144,13 +139,14 @@
     padding-top: 70px;
     .sec_img{margin-top: 120px;}
   }
-  #sec_10{
-    .col-2{width: 33.333333%}
-    .logos{display: none}
-  }
+
   #sec_11{
     padding-bottom: 60px;
-    background: #fff;
+    .sec_img{
+      width: 246px;
+      bottom: -61px;
+      left: 100px;
+    }
     [class*='col']{width: 50%};
   }
   footer{
@@ -297,7 +293,7 @@
   #sec_09{
     padding-bottom: 80px;
     padding-top: 0px;
-    .sec_img{margin-top: -80px; margin-bottom: 90px;}
+    .sec_img{margin-top: 0px; margin-bottom: 90px;}
   }
   #sec_10{
     padding: 80px 0;
@@ -307,17 +303,28 @@
       margin-top: 0;
       &:before{display: none}
     }
-    .mobile{display: block;}
-    .desctop{display: none}
-    .col-2{width: 50%;}
-    .partner_logo {width: auto; display: block;}
-    .wrap+.wrap{margin-top: 60px;}
+    .tc{text-align: left}
+    .wrap,.partner_item{
+      display: inline-block;
+      vertical-align: top;
+    }
+    .partner_item{
+      max-width: 155px;
+      width: 100%;
+    }
+    .wrap+.wrap, .partner_item+.partner_item{
+      margin-top: 0;
+      margin-left: 30px;
+    }
+    .logos{margin-bottom: 50px;}
   }
   #sec_11{
     padding-bottom: 60px;
     padding-top: 70px;
     text-align: center;
-    background: #fff;
+    .sec_img{
+      display: none;
+    }
     .afterheader{margin-bottom: 50px;}
     form{
       box-shadow: 0 17px 32px rgba(0, 0, 0, 0.07);
@@ -407,6 +414,21 @@
     .item_block{
       margin-left: 20px;
     }
+  }
+  #sec_10{
+    text-align: center;
+    .wrap,.partner_item{
+      display: block;
+    }
+    .partner_item{
+      margin: 0 auto;
+    }
+    .tc{text-align: center;}
+    .wrap+.wrap, .partner_item+.partner_item{
+      margin-top: 30px;
+      margin-left: auto;
+    }
+    .logos{margin-bottom: 50px;}
   }
   #footer{
     .logo_btn{float: none;}
