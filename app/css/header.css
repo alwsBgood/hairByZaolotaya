@@ -112,7 +112,7 @@ h2 {
     height: 4px;
     left: 0px;
     top: 10px;
-    background: url(../img/list.png) center no-repeat; }
+    background: url(img/list.png) center no-repeat; }
 
 .bar-long {
   height: 5px;
@@ -138,7 +138,7 @@ h2 {
     background-color: #007b7b; }
 
 #sec_01 {
-  background-image: url(../img/sec_01-bg.jpg);
+  background-image: url(img/sec_01-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-color: #373135;

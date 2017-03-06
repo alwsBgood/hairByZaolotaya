@@ -16,7 +16,7 @@
     line-height: 24px; }
   #sec_02 .text {
     line-height: 26px; }
-  #sec_02 .item + .item {
+  #sec_02 .margined {
     margin-top: 30px;
     margin-bottom: 50px; }
   #sec_02 .names_block {
@@ -271,7 +271,7 @@
 #sec_10 {
   padding: 150px 0 100px;
   background-color: #f17899; }
-  #sec_10 .partner_logo + .partner_logo {
+  #sec_10 .wrap + .wrap {
     margin-top: 35px; }
   #sec_10 h2 {
     margin-top: 75px;
@@ -295,10 +295,14 @@
     display: none; }
 
 #sec_11 {
-  background-image: url(../img/sec_11-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
   padding: 130px 0 150px; }
+  #sec_11 .container {
+    position: relative; }
+  #sec_11 .sec_img {
+    position: absolute;
+    bottom: -150px;
+    left: 200px;
+    z-index: 2; }
   #sec_11 h2 {
     z-index: 10;
     margin-bottom: 40px; }
@@ -319,7 +323,17 @@
     box-shadow: 0 17px 32px rgba(0, 0, 0, 0.07);
     margin-top: 40px;
     padding: 50px 65px 70px;
-    background: #fff; }
+    background: #fff;
+    position: relative; }
+    #sec_11 form:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      width: 485px;
+      height: 410px;
+      top: 100px;
+      left: -300px;
+      background: url(../img/sec_11-dots.png); }
     #sec_11 form .btn {
       max-width: 250px;
       margin-top: 30px; }
@@ -643,14 +657,11 @@ input:-ms-input-placeholder {
   #sec_09 .sec_img {
     width: 100%;
     margin-top: 20px; }
-  #sec_10 .partner_title {
-    font-size: 16px; }
-  #sec_10 .partner_logo {
-    width: 100%; }
   #sec_11 {
-    background-size: 1400px;
-    padding-bottom: 30px;
-    background-position: center bottom; } }
+    padding-bottom: 30px; }
+    #sec_11 .sec_img {
+      width: 420px;
+      bottom: -31px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   h2 {
@@ -729,13 +740,12 @@ input:-ms-input-placeholder {
     padding-top: 70px; }
     #sec_09 .sec_img {
       margin-top: 120px; }
-  #sec_10 .col-2 {
-    width: 33.333333%; }
-  #sec_10 .logos {
-    display: none; }
   #sec_11 {
-    padding-bottom: 60px;
-    background: #fff; }
+    padding-bottom: 60px; }
+    #sec_11 .sec_img {
+      width: 246px;
+      bottom: -61px;
+      left: 100px; }
     #sec_11 [class*='col'] {
       width: 50%; }
   footer .politics a {
@@ -874,7 +884,7 @@ input:-ms-input-placeholder {
     padding-bottom: 80px;
     padding-top: 0px; }
     #sec_09 .sec_img {
-      margin-top: -80px;
+      margin-top: 0px;
       margin-bottom: 90px; }
   #sec_10 {
     padding: 80px 0; }
@@ -884,22 +894,25 @@ input:-ms-input-placeholder {
       margin-top: 0; }
       #sec_10 h2:before {
         display: none; }
-    #sec_10 .mobile {
-      display: block; }
-    #sec_10 .desctop {
-      display: none; }
-    #sec_10 .col-2 {
-      width: 50%; }
-    #sec_10 .partner_logo {
-      width: auto;
-      display: block; }
-    #sec_10 .wrap + .wrap {
-      margin-top: 60px; }
+    #sec_10 .tc {
+      text-align: left; }
+    #sec_10 .wrap, #sec_10 .partner_item {
+      display: inline-block;
+      vertical-align: top; }
+    #sec_10 .partner_item {
+      max-width: 155px;
+      width: 100%; }
+    #sec_10 .wrap + .wrap, #sec_10 .partner_item + .partner_item {
+      margin-top: 0;
+      margin-left: 30px; }
+    #sec_10 .logos {
+      margin-bottom: 50px; }
   #sec_11 {
     padding-bottom: 60px;
     padding-top: 70px;
-    text-align: center;
-    background: #fff; }
+    text-align: center; }
+    #sec_11 .sec_img {
+      display: none; }
     #sec_11 .afterheader {
       margin-bottom: 50px; }
     #sec_11 form {
@@ -961,6 +974,19 @@ input:-ms-input-placeholder {
     font-size: 32px; }
   #sec_04 .item_block {
     margin-left: 20px; }
+  #sec_10 {
+    text-align: center; }
+    #sec_10 .wrap, #sec_10 .partner_item {
+      display: block; }
+    #sec_10 .partner_item {
+      margin: 0 auto; }
+    #sec_10 .tc {
+      text-align: center; }
+    #sec_10 .wrap + .wrap, #sec_10 .partner_item + .partner_item {
+      margin-top: 30px;
+      margin-left: auto; }
+    #sec_10 .logos {
+      margin-bottom: 50px; }
   #footer .logo_btn {
     float: none; }
   #footer .call_btn {
