@@ -629,6 +629,8 @@ input:-ms-input-placeholder {
   font: 16px/24px "Gilroy-Light", sans-serif; }
 
 @media (max-width: 1200px) {
+  .items_list br {
+    display: none; }
   h2 {
     font-size: 44px; }
   .coach_card {
@@ -654,6 +656,8 @@ input:-ms-input-placeholder {
     margin-top: 30px; }
   #sec_08 h2 {
     margin-top: 20px; }
+  #sec_08 .pack_item {
+    min-height: 715px; }
   #sec_09 .sec_img {
     width: 100%;
     margin-top: 20px; }

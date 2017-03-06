@@ -2,6 +2,7 @@
 @import "vars.scss";
 
 @media (max-width: 1200px){
+  .items_list br{display: none}
   h2{font-size: 44px;}
   .coach_card{
     width: 100%; max-width: 329px;
@@ -30,6 +31,9 @@
   }
   #sec_08{
     h2{margin-top: 20px;}
+    .pack_item{
+      min-height: 715px;
+    }
   }
   #sec_09{
     .sec_img {
