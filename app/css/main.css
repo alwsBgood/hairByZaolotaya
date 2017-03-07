@@ -103,7 +103,8 @@
   .coach_card .coach_card_name {
     margin-bottom: 15px; }
   .coach_card .more_info {
-    display: none; }
+    display: none;
+    margin-top: 12px; }
   .coach_card .items_list li + li {
     margin-top: 12px; }
   .coach_card .coach_card_text {
