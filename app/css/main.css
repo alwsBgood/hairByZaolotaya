@@ -213,7 +213,7 @@
     background-color: #fff;
     -webkit-box-shadow: 0 17px 32px rgba(0, 0, 0, 0.07);
     box-shadow: 0 17px 32px rgba(0, 0, 0, 0.07);
-    min-height: 650px;
+    min-height: 730px;
     padding: 50px 15px 40px;
     -webkit-transition: -webkit-box-shadow .3s;
     transition: -webkit-box-shadow .3s;
@@ -243,6 +243,13 @@
     #sec_08 .pack_item:hover {
       -webkit-box-shadow: 0 17px 32px rgba(241, 120, 153, 0.4);
       box-shadow: 0 17px 32px rgba(241, 120, 153, 0.4); }
+    #sec_08 .pack_item .rise {
+      font-size: 14px;
+      color: gray;
+      max-width: 80%;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto; }
   #sec_08 .pack_wrap {
     display: block; }
 
@@ -661,7 +668,7 @@ input:-ms-input-placeholder {
   #sec_08 h2 {
     margin-top: 20px; }
   #sec_08 .pack_item {
-    min-height: 715px; }
+    min-height: 780px; }
   #sec_09 .sec_img {
     width: 100%;
     margin-top: 20px; }
@@ -736,7 +743,7 @@ input:-ms-input-placeholder {
     padding-top: 100px; }
     #sec_08 .pack_item {
       margin: 0 -10px;
-      min-height: 780px; }
+      min-height: 860px; }
       #sec_08 .pack_item .pack_list {
         line-height: 20px; }
         #sec_08 .pack_item .pack_list li + li {
@@ -884,7 +891,7 @@ input:-ms-input-placeholder {
       display: inline-block; }
     #sec_08 .pack_item {
       min-height: auto;
-      padding-bottom: 200px;
+      padding-bottom: 240px;
       margin: 0 auto 60px;
       width: 100%;
       max-width: 400px; }
@@ -995,6 +1002,13 @@ input:-ms-input-placeholder {
       margin-left: auto; }
     #sec_10 .logos {
       margin-bottom: 50px; }
+  #footer .logo_btn {
+    float: none; }
+  #footer .call_btn {
+    float: none; }
+  #footer .social {
+    display: block;
+    margin: 20px  0 0; }
   #sec_11 form {
     padding: 40px 20px 20px; }
     #sec_11 form .btn {

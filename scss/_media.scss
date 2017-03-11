@@ -32,7 +32,7 @@
   #sec_08{
     h2{margin-top: 20px;}
     .pack_item{
-      min-height: 715px;
+      min-height: 780px;
     }
   }
   #sec_09{
@@ -128,7 +128,7 @@
     padding-top: 100px;
     .pack_item {
       margin: 0 -10px;
-      min-height: 780px;
+      min-height: 860px;
       .pack_list{
         line-height: 20px;
         li+li{margin-top: 10px;}
@@ -288,7 +288,7 @@
     h2{display: inline-block;}
     .pack_item {
       min-height: auto;
-      padding-bottom: 200px;
+      padding-bottom: 240px;
       margin: 0 auto 60px;
       width: 100%;
       max-width: 400px;
@@ -435,9 +435,9 @@
     .logos{margin-bottom: 50px;}
   }
   #footer{
-    // .logo_btn{float: none;}
-    // .call_btn{float: none}
-    // .social{display: block; margin:20px  0 0;}
+    .logo_btn{float: none;}
+    .call_btn{float: none}
+    .social{display: block; margin:20px  0 0;}
   }
   #sec_11{
     form{
