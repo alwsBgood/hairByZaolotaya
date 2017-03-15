@@ -160,6 +160,8 @@
     #sec_07 .time_block .time {
       font-size: 24px;
       margin-bottom: 10px; }
+  #sec_07 .schedule_list br {
+    display: block; }
   #sec_07 .schedule_item + .schedule_item,
   #sec_07 .schedule_item + .breack_item,
   #sec_07 .breack_item + .schedule_item {
