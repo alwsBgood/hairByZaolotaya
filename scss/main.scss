@@ -222,7 +222,7 @@
   .schedule_item+.schedule_item,
   .schedule_item+.breack_item,
   .breack_item+.schedule_item{
-    margin-top: 43px
+    margin-top: 31px;
   }
 }
 
@@ -361,8 +361,8 @@
 #sec_10{
   padding: 150px 0 100px;
   background-color: $main_color;
-  .wrap+.wrap{
-    margin-top: 35px;
+  .partner_logo+.partner_logo{
+    margin-top: 15px;
   }
   h2{
     margin-top: 75px;
