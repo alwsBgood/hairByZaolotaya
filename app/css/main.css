@@ -306,6 +306,8 @@
     margin-top: 20px; }
   #sec_10 .mobile {
     display: none; }
+  #sec_10 .item {
+    margin-bottom: 10px; }
 
 #sec_11 {
   padding: 130px 0 150px; }

@@ -69,6 +69,7 @@ $(function() {
             $('form').trigger("reset");
             setTimeout(function(){  $("[name=send]").removeAttr("disabled"); }, 1000);
               // Настройки модального окна после удачной отправки
+                dataLayer.push({'event': 'send'});
                $('div.md-show').removeClass('md-show');
                $('form').trigger("reset");
                window.location = 'http://beautyfest.com.ua/success/'
@@ -96,7 +97,7 @@ $(function() {
 //  INPUT TEL MASK
 
 jQuery(function($){
- $("input[type='tel']").mask("+9 (999) 999-9999");
+ $("input[type='tel']").mask("+38 (999) 999-9999");
 });
 
 // Scroll BAR
