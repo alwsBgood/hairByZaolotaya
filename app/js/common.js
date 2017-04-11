@@ -13,6 +13,9 @@ $(function() {
     var error;
     var btn = $(this);
     var ref = btn.closest('form').find('[required]');
+    var loc = ymaps.geolocation.city+', '+ymaps.geolocation.region+', '+ymaps.geolocation.country;
+
+    $('[name=city').val(loc);
     var msg = btn.closest('form').find('input, textarea, select');
     var form = btn.closest('form');
     var send_btn = btn.closest('form').find('[name=send]');
@@ -61,6 +64,13 @@ $(function() {
           url: 'https://docs.google.com/forms/d/e/1FAIpQLSdpZjO9J-8Q5UpdBZMK7P2irQKsC7MUBUJ4ED1munW_fl0GiQ/formResponse',
           data: msg,
         });
+        // Отправка в базу данных
+        $.ajax({
+         type: 'POST',
+         url: 'db/registration.php',
+         dataType: 'json',
+         data: form.serialize(),
+       });
         $.ajax({
           type: 'POST',
           url: 'mail.php',

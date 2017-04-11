@@ -1,7 +1,7 @@
-<!-- <?php
+<?php
     require 'db/data.php';
     require 'db/visits.php';
-?> -->
+?>
 
 <!DOCTYPE html>
 <html class="no-js" lang="ru">
