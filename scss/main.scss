@@ -532,8 +532,15 @@
         filter: brightness(0.7);
         transition: filter .3s;
       }
+      svg{
+        margin-bottom: -4px;
+        filter: brightness(0.7);
+        transition: filter .3s;
+        fill: url(#g696);
+        width: 25px;
+      }
       &:hover{
-        img{
+        img, svg{
           filter: brightness(1);
         }
       }

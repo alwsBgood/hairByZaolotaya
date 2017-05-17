@@ -433,7 +433,17 @@
         transition: -webkit-filter .3s;
         transition: filter .3s;
         transition: filter .3s, -webkit-filter .3s; }
-      #footer .social li:hover img {
+      #footer .social li svg {
+        margin-bottom: -4px;
+        -webkit-filter: brightness(0.7);
+        filter: brightness(0.7);
+        -webkit-transition: -webkit-filter .3s;
+        transition: -webkit-filter .3s;
+        transition: filter .3s;
+        transition: filter .3s, -webkit-filter .3s;
+        fill: url(#g696);
+        width: 25px; }
+      #footer .social li:hover img, #footer .social li:hover svg {
         -webkit-filter: brightness(1);
         filter: brightness(1); }
 

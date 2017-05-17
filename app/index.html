@@ -90,7 +90,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row">
             <div class="col-12 top">
                 <img src="img/logo.png" alt="Логотип" class="logo">
-                <a href="https://goo.gl/maps/W8SfySPoSrH2" target="_blank" class="place text--title"><span>10 </span> Июня. г. Киев "Дизапп"</a>
+                <a href="https://www.google.com.ua/maps/place/DIZAAP/@50.430748,30.484419,15z/data=!4m5!3m4!1s0x0:0x891fdd42b30a13fc!8m2!3d50.430748!4d30.484419" target="_blank" class="place text--title"><span>10 </span> Июня. г. Киев "DIZAAP"</a>
                 <div class="call_box">
                     <a href="tel:0932482769" class="phone_number">+ 38 (093) 248 27 69</a>
                     <a class="md-trigger call_btn flex" data-modal="modal_callback">Заказать звонок</a>
@@ -594,7 +594,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <h2 class="text--title header--crossed">Место <br> Встречи <br /> <span class="text--pink">в крутейшей <br> локации Киева <br> "Дизапп"</span></h2>
+                <h2 class="text--title header--crossed">Место <br> Встречи <br /> <span class="text--pink">в крутейшей <br> локации Киева <br> "DIZAAP"</span></h2>
                 <p class="text--ibold info_text">г. Киев,  <br> ул. Механизаторов 2, офис 498 <br> 10 июня 2017 года </p>
             </div>
             <div class="col-8">
@@ -725,8 +725,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <img src="img/logo-btm.png" alt="Logo" class="logo_btn">
                 <ul class="social">
                     <li><a target="_blank" href="https://www.facebook.com/ukrainebeautyfest/"><img src="img/fb.png" alt=""></a></li>
-                    <!-- <li><a href="#"><img src="img/vk.png" alt=""></a></li>
-                    <li><a href="#"><img src="img/twitter.png" alt=""></a></li> -->
+                    <li><a target="_blank" href="https://www.instagram.com/uralbeautyfest/"><svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"><defs><linearGradient id="g696" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="0%" y2="100%"><stop stop-color="#f07798" offset="0"/><stop stop-color="#00c8c8" offset="1"/></linearGradient></defs><path d="M31 3.2C30.8 1.4 29.3 0 27.4 0 19.5 0 11.5 0 3.6 0c-0.2 0-0.4 0-0.6 0.1C1.2 0.4 0 1.8 0 3.6c0 4 0 7.9 0 11.9 0 3.9 0 7.9 0 11.8 0 0.2 0 0.4 0 0.6 0.2 1.7 1.8 3 3.5 3 8 0 16 0 23.9 0 0.1 0 0.3 0 0.4 0 1.8-0.2 3.1-1.7 3.1-3.5C31 19.5 31 11.5 31 3.5 31 3.4 31 3.3 31 3.2zM15.5 9.5c3.3 0 6 2.7 6 6 0 3.3-2.7 6-6 6 -3.3 0-6-2.7-6-6C9.5 12.2 12.2 9.5 15.5 9.5zM27.4 13.3c0 4.3 0 8.6 0 12.8 0 0.8-0.5 1.3-1.3 1.3 -6.6 0-13.2 0-19.9 0 -0.5 0-1 0-1.4 0 -0.7 0-1.3-0.5-1.3-1.3 0-4.3 0-8.6 0-12.9 0 0 0-0.1 0-0.1 0.9 0 1.8 0 2.7 0 -0.6 2.4-0.3 4.8 0.9 7 0.9 1.6 2.1 2.9 3.7 3.7 3.1 1.8 7 1.6 10-0.4 1.7-1.1 2.9-2.6 3.6-4.5 0.7-1.9 0.8-3.8 0.3-5.7 0.9 0 1.8 0 2.7 0C27.4 13.2 27.4 13.2 27.4 13.3zM27.4 8.3c0 0.7-0.5 1.2-1.2 1.2 0 0 0 0 0 0 -0.6 0-1.2 0-1.7 0 -0.6 0-1.2 0-1.8 0 -0.7 0-1.2-0.5-1.2-1.2 0-1.2 0-2.4 0-3.6 0-0.7 0.5-1.2 1.2-1.2 1.2 0 2.3 0 3.5 0 0.7 0 1.2 0.5 1.2 1.2C27.4 6 27.4 7.1 27.4 8.3z"/></svg></a></li>
                 </ul>
                 <a class="md-trigger call_btn" data-modal="modal_callback">Заказать звонок</a>
                 <div class="clear"></div>
