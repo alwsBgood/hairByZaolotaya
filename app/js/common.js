@@ -13,7 +13,7 @@ $(function() {
     var error;
     var btn = $(this);
     var ref = btn.closest('form').find('[required]');
-    var loc = ymaps.geolocation.city+', '+ymaps.geolocation.region+', '+ymaps.geolocation.country;
+    // var loc = ymaps.geolocation.city+', '+ymaps.geolocation.region+', '+ymaps.geolocation.country;
 
     $.get("http://ipinfo.io", function(response) {
      $('[name=city]').val(response.city + ', ' + response.country)
