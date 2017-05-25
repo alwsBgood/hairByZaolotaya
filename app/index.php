@@ -356,20 +356,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-4">
                 <div class="coach_card">
                     <div class="coach_card_img_wrapper">
-                        <img src="img/coach-scrt.png" alt="Тренер" class="coach_img">
+                        <img src="img/coach-7.png" alt="Тренер" class="coach_img">
                     </div>
-                    <p class="coach_card_name text--ibold title--small">Секретный Спикер</p>
-                    <!-- <div class="coach_card_description">
+                    <p class="coach_card_name text--ibold title--small">Дарья Коломиец</p>
+                    <div class="coach_card_description">
                         <ul class="items_list coach_card_text">
-                            <li>Организатор мероприятия Ukraine  <br /> Beauty Fest 2017</li>
-                            <li>Управляющий партнер бренда Hair  <br /> by Zolotaya</li>
+                            <li>DJ, Ведущий утреннего шоу на Радио Аристократы</li>
+                            <li>Ведущий утреннего шоу на НЛО TV</li>
                         </ul>
-                        <ul class="items_list more_info">
+                        <!-- <ul class="items_list more_info">
                             <li>Эксперт по продажам (онлайн, оффлайн)  <br />
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
-                    <button class="coach_accordion_trigger coach_card_button"><img src="img/ar-3.png" alt="Указатель" class="coach_btn_arrow"></button> -->
+                    <!-- <button class="coach_accordion_trigger coach_card_button"><img src="img/ar-3.png" alt="Указатель" class="coach_btn_arrow"></button> -->
                 </div>
             </div>
         </div>
@@ -1127,7 +1127,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- Load Scripts Start -->
     <script>var scr = {"scripts":[
-        {"src" : "http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU", "async" : false},
+        // {"src" : "http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU", "async" : false},
         {"src" : "js/libs.js", "async" : false},
         {"src" : "js/common.js", "async" : false}
         ]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
